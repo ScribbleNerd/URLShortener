@@ -1,0 +1,19 @@
+{
+  "version_+comment": "Do not change the version",
+  "version": "1.0.0",
+  "sitename_+comment": "The name of the website",
+  "sitename": "URL Shortener",
+  "http": {
+    "enabled": true,
+    "port_+comment": "Default http port is 80",
+    "port": 80
+  },
+  "https": {
+    "enabled": true,
+    "port_+comment": "Default https port is 443",
+    "port": 443,
+    "key": "src/https/server.key",
+    "cert": "src/https/server.cert",
+    "httpscert_+comment": "For help generating certificates, please go here: *link*"
+  }
+}

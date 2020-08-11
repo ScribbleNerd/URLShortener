@@ -1,0 +1,270 @@
+{
+  "_+comment": "Please do not modify this file, as it will most likely break functions.",
+
+  "101": {
+    "info": {
+      "message": "101 Switching Protocols",
+      "description": "The server switches protocol."
+    },
+    "status_code": 101
+  },
+  "200": {
+    "success": {
+      "message": "200 OK",
+      "description": "The request is OK."
+    },
+    "status_code": 200
+  },
+  "201": {
+    "success": {
+      "message": "201 Created",
+      "description": "The request is complete, and a new resource is created."
+    },
+    "status_code": 201
+  },
+  "202": {
+    "success": {
+      "message": "202 Accepted",
+      "description": "The request is accepted for processing, but the processing is not complete."
+    },
+    "status_code": 202
+  },
+  "203": {
+    "success": {
+      "message": "203 Non-authoritative Information",
+      "description": "The information in the entity header is from a local or third-party copy, not from the original server."
+    },
+    "status_code": 203
+  },
+  "204": {
+    "success": {
+      "message": "204 No Content",
+      "description": "A status code and a header are given in the response, but there is no entity-body in the reply."
+    },
+    "status_code": 204
+  },
+  "205": {
+    "success": {
+      "message": "205 Reset Content",
+      "description": "The browser should clear the form used for this transaction for additional input."
+    },
+    "status_code": 205
+  },
+  "206": {
+    "success": {
+      "message": "206 Partial Content",
+      "description": "The server is returning partial data of the size requested. Used in response to a request specifying a Range header. The sertver must specify the range included in the response with the Content-Range header."
+    },
+    "status_code": 206
+  },
+  "300": {
+    "redirect": {
+      "message": "300 Multiple Choices",
+      "description": "A link list. The user can select a link and go to that location. Maximum five addresses."
+    },
+    "status_code": 300
+  },
+  "301": {
+    "redirect": {
+      "message": "301 Moved Permanently",
+      "description": "The requested page has been moved to a new url."
+    },
+    "status_code": 301
+  },
+  "302": {
+    "redirect": {
+      "message": "302 Found",
+      "description": "The requested page have been moved temporarily to a new url."
+    },
+    "status_code": 302
+  },
+  "303": {
+    "redirect": {
+      "message": "303 See Other",
+      "description": "The requested page can bee found under a different url."
+    },
+    "status_code": 303
+  },
+  "304": {
+    "redirect": {
+      "message": "304 Not Modified",
+      "description": "This is the response code to an If-Modified-Since or If-None-Match header, where the URL has been not been modified since the specified date."
+    },
+    "status_code": 304
+  },
+  "305": {
+    "redirect": {
+      "message": "305 Use Proxy",
+      "description": "The requested URL must be accessed through the proxy mentioned in the Location header."
+    },
+    "status_code": 305
+  },
+  "307": {
+    "redirect": {
+      "message": "307 Temporary Redirect",
+      "description": "The requested page has moved temporarily to a new url."
+    },
+    "status_code": 307
+  },
+  "400": {
+    "error": {
+      "message": "400 Bad Request",
+      "description": "The server did not understand the request."
+    },
+    "status_code": 400
+  },
+  "401": {
+    "error": {
+      "message": "401 Unauthorized",
+      "description": "The requested page needs a username and password."
+    },
+    "status_code": 401
+  },
+  "403": {
+    "error": {
+      "message": "403 Forbidden",
+      "description": "Access is forbidden to the requested page."
+    },
+    "status_code": 403
+  },
+  "404": {
+    "error": {
+      "message": "404 Not Found",
+      "description": "The server can not find the requested page. If you're viewing this page through a web browser, you can go to /api/map to find an array of valid pages."
+    },
+    "status_code": 404
+  },
+  "405": {
+    "error": {
+      "message": "405 Method Not Allowed",
+      "description": "The method specified in the request is not allowed."
+    },
+    "status_code": 405
+  },
+  "406": {
+    "error": {
+      "message": "406 Not Acceptable",
+      "description": "The server can only generate a response that is not accepted by the client."
+    },
+    "status_code": 406
+  },
+  "407": {
+    "error": {
+      "message": "Proxy Authentication Required",
+      "description": "You must authenticate with a proxy server before this request can be served."
+    },
+    "status_code": 407
+  },
+  "408": {
+    "error": {
+      "message": "408 Request Timeout",
+      "description": "The request took longer than the server was prepared to wait."
+    },
+    "status_code": 408
+  },
+  "409": {
+    "error": {
+      "message": "409 Conflict",
+      "description": "The request could not be completed because of a conflict."
+    },
+    "status_code": 409
+  },
+  "410": {
+    "error": {
+      "message": "410 Gone",
+      "description": "The requested page is no longer available."
+    },
+    "status_code": 410
+  },
+  "411": {
+    "error": {
+      "message": "411 Length Required",
+      "description": "The Content-Length is not defined. The server will not accept the request without it."
+    },
+    "status_code": 411
+  },
+  "412": {
+    "error": {
+      "message": "412 Precondition Failed",
+      "description": "The pre condition given in the request evaluated to false by the server."
+    },
+    "status_code": 412
+  },
+  "413": {
+    "error": {
+      "message": "413 Request Entity Too Large",
+      "description": "The server will not accept the request, because the request entity is too large."
+    },
+    "status_code": 413
+  },
+  "414": {
+    "error": {
+      "message": "414 Request-url Too Long",
+      "description": "The server will not accept the request, because the url is too long. Occurs when you convert a post request to a get request with a long query information."
+    },
+    "status_code": 414
+  },
+  "415": {
+    "error": {
+      "message": "415 Unsupported Media Type",
+      "description": "The server will not accept the request, because the mediatype is not supported"
+    },
+    "status_code": 415
+  },
+  "416": {
+    "error": {
+      "message": "416 Request Ra2nge Not Satisfiable",
+      "description": "The requested byte range is not available and is out of bounds."
+    },
+    "status_code": 416
+  },
+  "417": {
+    "error": {
+      "message": "417 Expectation Failed",
+      "description": "The expectation given in an Expect request-header field could not be met by this server."
+    },
+    "status_code": 417
+  },
+  "500": {
+    "error": {
+      "message": "500 Internal Server Error",
+      "description": "The request was not completed. The server met an unexpected condition."
+    },
+    "status_code": 500
+  },
+  "501": {
+    "error": {
+      "message": "501 Not Implemented",
+      "description": "The request was not completed. The server did not support the functionality required."
+    },
+    "status_code": 501
+  },
+  "502": {
+    "error": {
+      "message": "502 Bad Gateway",
+      "description": "The request was not completed. The server recieved an invalid response from the upstream server."
+    },
+    "status_code": 502
+  },
+  "503": {
+    "error": {
+      "message": "503 Service Unavailable",
+      "description": "The request was not completed. The server is temporarily overloading or down."
+    },
+    "status_code": 503
+  },
+  "504": {
+    "error": {
+      "message": "504 Gateway Timeout",
+      "description": "The gateway has timed out"
+    },
+    "status_code": 504
+  },
+  "505": {
+    "error": {
+      "message": "505 HTTP Version Not Supported",
+      "description": "The server does not support the http protocol version."
+    },
+    "status_code": 505
+  }
+}
